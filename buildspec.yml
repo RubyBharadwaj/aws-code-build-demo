@@ -1,0 +1,11 @@
+version 0.2:
+phases:
+ pre_build:
+  commands:
+   - echo "In pre build phase"
+ build:
+  commands:
+   - echo "In build phase"
+   - mvn clean prepare-package war:exploded 
+  post_build:
+   - echo "In post build phase"
