@@ -7,7 +7,7 @@ phases:
   commands:
    - echo "In build phase"
    - mvn clean prepare-package war:exploded 
-  post_build:
+ post_build:
    - echo "In post build phase"
     - mv target/deploy ./
 artifacts:
