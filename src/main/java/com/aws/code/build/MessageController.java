@@ -10,7 +10,7 @@ public class MessageController {
 	@GetMapping
 	public String message() {
 		
-		return "AWS Elastic beanstalk..";
+		return "Hello AWS Elastic beanstalk..";
 	}
 
 }
