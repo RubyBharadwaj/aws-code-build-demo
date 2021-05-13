@@ -10,9 +10,11 @@ phases:
  post_build:
   commands:
    - echo "deployment completed successfully.."
-   - mv target/aws-code-build-demo-0.0.1-SNAPSHOT.war aws-code-build-demo-0.0.1-SNAPSHOT.war
+   #- mv target/aws-code-build-demo-0.0.1-SNAPSHOT.war aws-code-build-demo-0.0.1-SNAPSHOT.war
+   - mv target/deploy ./
 artifacts:
  files:
-  - aws-code-build-demo-0.0.1-SNAPSHOT.war
-  - .ebextensions/**/*
+  #- aws-code-build-demo-0.0.1-SNAPSHOT.war
+  #- .ebextensions/**/*
+  - deploy/**/*
 discard-paths: yes
