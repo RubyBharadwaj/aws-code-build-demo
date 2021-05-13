@@ -9,7 +9,7 @@ phases:
     - mvn clean compile war:war 
  post_build:
   commands:
-   - echo "deployment completed.."
+   - echo "deployment completed successfully"
 artifacts:
  files:
   - target/**/*
