@@ -10,6 +10,8 @@ phases:
  post_build:
   commands:
    - echo "deployment completed successfully.."
+   - mv target/my-web-app ./
 artifacts:
  files:
-  - target/**/*
+  - my-web-app/**/*
+discard-paths: yes
