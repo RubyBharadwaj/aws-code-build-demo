@@ -11,7 +11,7 @@ public class MessageController {
 	@GetMapping
 	public String message() {
 		
-		return "Hello AWS Elastic beanstalk Server";
+		return "Code Pipeline Implementation";
 	}
  
 }
