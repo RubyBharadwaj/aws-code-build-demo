@@ -11,7 +11,7 @@ public class MessageController {
 	@GetMapping
 	public String message() {
 		
-		return "Code Pipeline Implementation";
+		return "Testing CI CD Implementation";
 	}
  
 }
