@@ -7,10 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/Messages")
 @RestController
 public class MessageController {
+	
 	@GetMapping
 	public String message() {
 		
-		return "Hello AWS Elastic beanstalk..";
+		return "Hello AWS Elastic beanstalk Server";
 	}
-
+ 
 }
